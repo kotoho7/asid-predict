@@ -1,0 +1,14 @@
+{
+	"[python]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "ms-python.black-formatter",
+	},
+	"python.analysis.extraPaths": [
+		"./src/asid_predict"
+	],
+	"files.exclude": {
+		"**/__pycache__": true,
+		"build/**": true,
+		"**/*.egg-info": true
+	},
+}

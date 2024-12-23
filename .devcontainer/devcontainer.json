@@ -1,0 +1,29 @@
+// フォーマットの詳細については https://aka.ms/devcontainer.json を参照してください。設定オプションについては、
+// 以下のREADMEを参照してください: https://github.com/devcontainers/templates/tree/main/src/python
+{
+	"name": "Python 3",
+	// DockerfileまたはDocker Composeファイルを使用することもできます。詳細: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.black-formatter"
+			]
+		}
+	}
+
+	// 開発コンテナに追加する機能。詳細: https://containers.dev/features
+	// "features": {},
+
+	// 'forwardPorts'を使用して、コンテナ内のポートをローカルで利用可能にします。
+	// "forwardPorts": [],
+
+	// 'postCreateCommand'を使用して、コンテナ作成後にコマンドを実行します。
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+	// ツール固有のプロパティを設定します。
+	// "customizations": {},
+
+	// rootとして接続する場合はコメントを解除してください。詳細: https://aka.ms/dev-containers-non-root
+	// "remoteUser": "root"
+}
